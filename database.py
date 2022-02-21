@@ -1,10 +1,8 @@
 import json
-
 import motor.motor_asyncio
 import urllib.parse
 from datetime import datetime
 from bson import ObjectId
-from pymongo import InsertOne
 
 username = urllib.parse.quote_plus('poc_fastapi')
 password = urllib.parse.quote_plus("poc@fastapi")
